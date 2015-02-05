@@ -1,0 +1,47 @@
+div{
+	width:172px;
+	height: 72px;
+	border: 1px;
+	border: solid 1px;
+	margin: 0 0 10px 0
+}
+
+#box-1{
+	background-color: E35454;
+
+}
+
+#box-2{
+	background-color: DE9D23; 
+	margin-left:30px;
+}
+
+#box-3{
+	background-color: FFFB00;
+	margin-left: 60px;
+}
+
+#box-4{
+	background-color: 449C2C;
+	margin-left:90px;
+}
+
+#box-5{
+	background-color: 0032FA;
+	margin-left: 120px;
+}
+
+#box-6{
+	background-color: EE57FF;
+	margin-left: 150px;
+}
+
+a{
+	font-weight: bold;
+}
+
+p{
+	color: #fff;
+	font-weight: bold;
+	margin-left: 8px;
+}
