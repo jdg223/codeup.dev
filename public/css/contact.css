@@ -1,0 +1,47 @@
+.form-control{
+	width: 1200px;
+}
+
+#contact-button{
+	width: 100px;
+}
+
+body{
+	background-image: url(stardust.png);
+}
+
+h1{
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	color: #3333FF;
+}
+
+label{
+	color: #75D1FF;
+}
+
+#contact-button{
+	background-color: #5252CC;
+	border: solid 2px;
+	border-radius: 5%;
+}
+
+#contact-button:hover{
+	background-color: transparent;
+}
+
+input[type="text"],input[type="email"],textarea[id="Message"]{
+	background-color: #9191FF;
+	color: #000;
+}
+
+input[type="text"]:hover,input[type="email"]:hover,textarea[id="Message"]:hover{
+	background-color: transparent;
+	color: #000;
+}
+@media(max-width: 480px){
+	.form-control{
+		width: 400px;
+	}
+}

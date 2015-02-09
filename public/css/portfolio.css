@@ -1,0 +1,139 @@
+#bot-logo{
+position: relative;
+margin-left: -1%;
+margin-bottom: -60px;
+width: 50%;
+height: auto;
+}
+
+body{
+	background-image: url(street-2.jpg);
+	background-size: 100%;
+}
+
+h2{
+	color: #EDE1E2;
+	font-size: 60px;
+}
+
+
+li>a{
+	font-size: 45px;
+	color: #EDE1E2;
+	line-height: -20px;
+}
+
+li>a:hover{
+	color: #EB6C74;
+}
+
+#main-cont{
+	margin-top: 20px;
+}
+
+.col-md-4>p{
+	color: #fff;
+}
+ #btn{
+ 	border-radius: 1%;
+ 	background-color: transparent;
+ 	border: solid 2px;
+ 	border-color: #fff;
+ 	height: 50px;
+ 	width:150px;
+ 	color: #fff;
+ 	font-size: 20px;
+ 	letter-spacing: 5px;
+ 	font-weight: bold;
+ }
+ #btn:hover{
+ 	background-color: #EB6C74;
+ 	border: solid 3px;
+ 	border-color: #000;
+ 	color: #000;
+ 	opacity: 0.8;
+ }
+ span{
+ 	font-size: 250px;
+ 	margin-top:20px;
+ 	color: #fff;
+ 	margin-left: 65px;
+ 	opacity: 0.6;
+ }
+
+ .col-md-4>h2{
+ 	font-size: 50px;
+ 	text-align: center;
+ 	letter-spacing: 3px;
+ 	color:#C4C4C4;
+ }
+.breadcrumb{
+	width: 50%;
+	float: right;
+	position: relative;
+	padding: 0px;
+	margin: 0px;
+	background-color: transparent;
+	margin-right: -2%;
+	margin-bottom: -13px;
+}
+
+ @media(max-width: 480px){
+ 	body{
+ 		
+ 	}
+ 	#bot-logo{
+ 		font-size: 60px;
+ 		top: 0px;
+ 		position: fixed;
+ 		margin: 0;
+ 		text-align: center;
+ 		margin-left: 70px;
+ 		padding-bottom: 10%;
+
+ 	}
+
+ 	.breadcrumb{
+ 		display: inline-block;
+ 		width: 100%;
+ 		height: 100%;
+ 		position: fixed;
+ 		top: 120px;
+
+ 	}
+	li>a{
+		font-size: 38px;
+		line-height: 30px;
+		letter-spacing: 0px;
+		margin-top: -40px;
+	}
+ 	#btn{
+ 		margin-left: 25%;
+ 		margin-right: 75%;
+ 	}
+
+ 	span{
+ 		margin-left: 40px;
+ 	}
+ 	#bot-logo{
+ 	
+ 		text-align: center;
+ 		width: auto;
+ 		background-color: #fff;
+ 		margin-right: -60px; 
+ 		padding-bottom: 0px;
+ 		margin-bottom: 0px;
+ 	}
+ 	.nav-mob{
+ 		height: 95px;
+ 		width: auto;
+ 	 	margin-left: -10px;
+ 		background-color: #fff;
+ 		padding: 0px;
+ 		background-image: url(footer_lodyas.png);
+ 		padding-top:60px;
+ 	}
+ 	.col-md-4{
+ 		padding-top: 200px;
+ 	}
+ }
