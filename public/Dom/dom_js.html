@@ -1,0 +1,27 @@
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <h1>Hello!</h1>
+    <button id="btn1">Click Me!</button>
+    <h2 class="hi">hey</h2>
+    <button class="btn-2">Click</button>
+  
+    <script>
+
+    function change (){
+        document.getElementsByClassName('hi').innerHTML = "Whats up?";
+    };
+
+    document.getElementsByClassName('btn-2').addEventListener('click',change,false);
+        // create a handler function
+        // var  = function () {
+        //     document.getElementsByTagName('h1').innerHTML = "Whats up?";
+        // }
+        // // register the listener to handle clicks on btn1
+        // document.getElementById('btn1').addEventListener('click',changeText, false); 
+
+    </script>
+</body>
+</html>

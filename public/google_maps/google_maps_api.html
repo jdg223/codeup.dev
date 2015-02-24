@@ -1,0 +1,68 @@
+<html>
+<head>
+  <style type="text/css">
+  #map-canvas {
+    width: 500px;
+    height: 550px;
+  }
+  </style>
+</head>
+<body>
+  <!-- div to hold map -->
+  <div id="map-canvas"></div>
+
+  <!-- Load the Google Maps API [DON'T FORGET TO USE A KEY] -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjbdjdOIuzyYIn0wkHcldNnU95o5P4-vs"></script>
+  <!-- Script to show address on map -->
+  <script type="text/javascript">
+    
+    // Set our address to geocode
+    var address = '18318 Sonterra Pl San Antonio, TX';
+
+    // Init geocoder object
+    var geocoder = new google.maps.Geocoder();
+
+
+    // Geocode our address
+    geocoder.geocode( { 'address': address}, function(results, status){
+      // Check for a successful result
+   // Set our map options
+    var mapOptions = {
+      // Set the zoom level
+      zoom: 5,
+      center: results[0].geometry.location
+      // This sets the center of the map at our location
+    }
+
+  })
+    var mapOptions = {
+      // Set the zoom level
+      zoom: 20,
+      // This sets the center of the map at our location
+      center: { lat: 29.430000, lng: -98.497760 }
+    };
+    // Render the map
+    var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+
+    // Create lat and long for our marker position
+    var restauraunt = { lat: 29.610191, lng: -98.497760};
+
+    // Add the marker to our existing map
+    var marker = new google.maps.Marker({
+      position: restauraunt,
+      map:map,
+      icon: 'sam jac1.PNG' 
+      
+
+    });
+    map.setMapTypeId(google.maps.MapTypeId.SATELLITE);
+    // Create a new infoWindow object with content
+    var infowindow = new google.maps.InfoWindow({
+        content: 'I like to eat here <br> and im not Laurence Fishburne',
+    });
+
+    // Open the window using our map and marker
+    infowindow.open(map,marker);
+
+  </script>
+</body>

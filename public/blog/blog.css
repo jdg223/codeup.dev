@@ -1,0 +1,68 @@
+h1{
+	text-align: center;
+}
+
+p{
+	font-size: 15px;
+};
+
+
+strong{
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.str-left{
+	float: left;
+	font-size: 25px;
+}
+
+.str-right{
+	float: right;
+	font-size: 25px;
+}
+
+div>h6{
+	font-size: 15px;
+	display: inline-block;
+}
+
+div>h4{
+	float: right;
+	margin-right: 12%;
+}
+.by{
+	display: inline-block;
+
+}
+body{
+	background-image: url(swirl_pattern.png);
+}
+.article{
+	margin-right:18%
+}
+.img-rounded{
+	opacity: 0.93;
+}
+hr{
+	border: solid 1px;
+	width: 100%
+}
+nav{
+	background: transparent;
+	background-color: transparent;
+	opacity: 0.9;
+	margin-bottom: 10px;
+}
+#cat-descrip,#tag-descrip,.main-title,.by,.blog-tags-1,.by,.tag,#title-by{
+	color: #3294BA;
+}
+.date{
+	margin-right: 10%;
+}
+.main-title{
+	font-size: 35px;
+}
+#title{
+	margin-top: 18px;
+}

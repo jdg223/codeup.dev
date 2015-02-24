@@ -70,5 +70,49 @@ for (var i = 0; i < books.length; i++) {
     console.log("-----------------------");
 });
 
+ var movies = {
+ 	"movies":[
+
+ 		{
+ 			"Title": "The Wolf of Wallstreet",
+ 			"Genre": "Drama",
+ 			"Director": {
+ 				"firstName": "Martin",
+ 				"lastName": "Scorsesse"
+ 			}
+ 		},
+ 		{
+ 			"Title": "Avatar",
+ 			"Genre": "Sci-fi",
+ 			"Director": {
+ 				"firstName": "James",
+ 				"lastName": "Cameron"
+ 			}
+ 			
+ 		},
+ 		{
+ 			"Title": "Django Unchained",
+ 			"Genre": "Action & Adventure",
+ 			"Director":{
+ 				"firstName": "Quentin",
+ 				"lastName": "Tarintino"
+ 			}
+ 			
+ 		}
+
+ 	]
+
+ };
+
+ for (var i = 0; i < movies.length; i++) {
+ 	console.log(movies[i])
+ };
+
+ movies.movies.forEach(function(movie,index){
+ 	console.log("The title of the movie is " + movie.Title)
+ 	console.log(movie.Director.firstName + " " + movie.Director.lastName + " Directed it")
+ 	console.log(movie.Genre + " Is the Genre")
+ 	console.log("===============================")
+ });
 
 // end loop here

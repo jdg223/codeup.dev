@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Calculator</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <style type="text/css">
+    .btn{
+      border-radius: 0px;
+      width: 80px;
+      height: 80px;
+      font-size: 25px;
+      background-color: #BFF2C0;
+      opacity: 0.6;
+    }
+    .num-input{
+      width: 504px;
+      height: 60px;
+      font-size: 30px;
+      background-color: transparent;
+      display: block;
+    }
+    .operator-input{
+      width: 25px;
+    }
+    .form-inline{
+      margin-left: 333px;
+    }
+    #value{
+      width: 504px;
+      margin-left: 333px;
+    }
+    .oper{
+      background-color: #30CFB4;
+    }
+    blockquote{
+    align:;
+    }
+    body{
+      background-image: url(old_mathematics.png);
+    }
+    </style>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <blockquote class="container text-center">
+     
+      <div class="inline">
+        <input type="text" class="num-input form-inline" id="first-input" value="">
+        <input type="text" class="num-input operator" id="value">
+      </div>
+
+    <div class = "container">
+      <button type="button" class="btn btn-default" id="1" value="1">1</button>
+      <button type="button" class="btn btn-default" id="2" value="2">2</button>
+      <button type="button" class="btn btn-default" id="3" value="3">3</button>
+      <button type="button" class="btn btn-default oper" id ="plus"> + </button>
+      <button type="button" class="btn btn-default oper" id="decimal"> . </button>
+      <button type="button" class="btn btn-default oper" id ="log">log</button>       
+    </div>
+
+    <div class = "container">
+      <button type="button" class="btn btn-default" id="4" value="4">4</button>
+      <button type="button" class="btn btn-default" id="5" value="5">5</button>
+      <button type="button" class="btn btn-default" id="6" value="6">6</button>
+      <button type="button" class="btn btn-default oper" id="minus"> - </button>
+      <button type="button" class="btn btn-default oper" id="sine">sin</button>    
+      <button type="button" class="btn btn-default oper" id="eulers">e</button>  
+    </div>
+
+    <div class = "container">
+      <button type="button" class="btn btn-default" id="7" value="7">7</button>
+      <button type="button" class="btn btn-default" id="8" value="8">8</button>
+      <button type="button" class="btn btn-default" id="9" value="9">9</button>
+      <button type="button" class="btn btn-default oper" id="multiply"> x </button>
+      <button type="button" class="btn btn-default oper" id="cosine">cos</button> 
+      <button type="button" class="btn btn-default oper" id="random">rand</button>          
+    </div>
+
+    <div class = "container">
+      <button type="button" class="btn btn-default" id ="clear">c</button>
+      <button type="button" class="btn btn-default" id ="0" value="0">0</button>
+      <button type="button" class="btn btn-default" id="equals">=</button>
+      <button type="button" class="btn btn-default oper" id="divide"> / </button>
+      <button type="button" class="btn btn-default oper" id="tangent">tan</button> 
+      <button type="button" class="btn btn-default oper" id="hex">hex</button>         
+    </div>
+
+    <div class = "container">
+      <button type="button" class="btn btn-default oper" id ="absolute">abs</button>
+      <button type="button" class="btn btn-default oper" id ="square-root"><sup>2</sup>√x</button>
+      <button type="button" class="btn btn-default oper" id="cubed-root">³√x</button>
+      <button type="button" class="btn btn-default oper" id ="exp">exp</button>
+      <button type="button" class="btn btn-default oper" id ="pi">π</button>
+      <button type="button" class="btn btn-default oper" id="dec">dec</button> 
+    </div>
+
+    <div class = "container">
+      <button type="button" class="btn btn-default oper" id ="left-paran">(</button>
+      <button type="button" class="btn btn-default oper" id ="right-paran">)</button>
+      <button type="button" class="btn btn-default oper" id ="percent">%</button>
+      <button type="button" class="btn btn-default oper" id ="squared">X²</button>
+      <button type="button" class="btn btn-default oper" id ="cubed">X³</button>
+      <button type="button" class="btn btn-default oper" id ="rpn">rpn</button>
+    </div>
+
+  </blockquote>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="calculator.js"></script>
+  </body>
