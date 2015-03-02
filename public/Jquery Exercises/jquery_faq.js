@@ -1,5 +1,5 @@
 $('dt').click(function() {
-$('dd').toggleClass('invisible');
+$('dd').toggle('invisible');
 });
 
 $('ul').each(function() {
@@ -7,5 +7,5 @@ $('ul').each(function() {
 })
 
 $('li').click(function() {
-	$(this).parent().addClass('invisible')
+	$(this).parent().hide('invisible')
 })
