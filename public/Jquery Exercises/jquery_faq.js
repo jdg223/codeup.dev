@@ -1,5 +1,5 @@
 $('dt').click(function() {
-$('dd').fadeToggle('invisible');
+$('dd').slideToggle('invisible');
 });
 
 $('ul').each(function() {
@@ -7,13 +7,13 @@ $('ul').each(function() {
 })
 
 $('#amis').click(function() {
-	$('#amistead').fadeToggle()
+	$('#amistead').slideToggle()
 })
 
 $('#guad').click(function() {
-	$('#guadaulupe').fadeToggle()
+	$('#guadaulupe').slideToggle()
 })
 
 $('#big').click(function() {
-	$('#big_bend').fadeToggle()
+	$('#big_bend').slideToggle()
 })
