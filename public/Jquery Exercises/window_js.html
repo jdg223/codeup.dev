@@ -1,0 +1,24 @@
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src = "jquery-2.1.3.js"></script>
+</head>
+<body>
+	<p>lets add an item by clicking below</p>
+	
+		<div id="insert-content"></div>
+	
+			<p><a id="clickable" href="">add item to dom</a></p>
+
+	
+<script type="text/javascript">
+$('#clickable').click(function() {
+	$('#insert-content').html('<p><a id="added-item" href="">item added</a></p>')
+});
+
+$('#added-item').click(function() {
+	console.log("yay we're here")
+});
+</script>
+</body>
+</html>

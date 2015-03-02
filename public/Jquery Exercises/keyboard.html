@@ -1,0 +1,33 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<h1 id="myName"></h1>
+	<script type="text/javascript" src = "jquery-2.1.3.js"></script>
+	<script type="text/javascript">
+	var sequence = [38,38]
+	$(document).on('keypress',function (event) {
+		console.log(event.keyCode);
+		 if (event.keyCode == (106 && 100)){
+		 	$('#myName').html('JD')
+		 };	
+	})
+$(document).on('keydown',function(a) {
+	console.log(event.keyCode)
+	if (event.keyCode == sequence[0] &&) {
+		 alert('you have earned an additional 30 lives!')
+	};
+})
+
+
+	//grab the sequence of keys 
+
+	//when they match your name attach that name to the h1 above
+
+	//create this sequence and alert('you have an additional 30 lives')
+	//up,up,down,down,left,right,left,right,b,a,b,a,enter
+	</script>
+</body>
+</html>
