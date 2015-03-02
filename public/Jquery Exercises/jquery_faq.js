@@ -1,11 +1,19 @@
 $('dt').click(function() {
-$('dd').toggle('invisible');
+$('dd').fadeToggle('invisible');
 });
 
 $('ul').each(function() {
 	$(this).children().first().css('font-weight','bold')
 })
 
-$('li').click(function() {
-	$(this).parent().hide('invisible')
+$('#amis').click(function() {
+	$('#amistead').fadeToggle()
+})
+
+$('#guad').click(function() {
+	$('#guadaulupe').fadeToggle()
+})
+
+$('#big').click(function() {
+	$('#big_bend').fadeToggle()
 })
