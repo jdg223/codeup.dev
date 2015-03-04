@@ -1,0 +1,58 @@
+[
+    {
+        "title": "If you like Coffee",
+        "date": "10-30-2015",
+        "author": " Jon Wayne",
+        "image": "blog/coffee_small.jpg",
+        "tags": [
+            " web",
+            "design",
+            "html"
+        ],
+        "category": "development",
+        "post": "lorem ipsum dolor and stuff here"
+    },
+
+    {
+        "title": "She Takes Pictures",
+        "date": "1-3-2014",
+        "author": " Micheal Jackson",
+        "image": "blog/photographer.jpg",
+        "tags": [
+            " photography",
+            "ummm",
+            "cameras"
+        ],
+        "category": "Pictures",
+        "post": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat laborum."
+    },
+
+    {
+        "title": "Would You Drive This?",
+        "date": "1-3-2014",
+        "author": " Micheal Jackson",
+        "image": "blog/interior.jpg",
+        "tags": [
+            " photography",
+            "ummm",
+            "cameras"
+        ],
+        "category": "development",
+        "post": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat laborum."
+    },
+
+    {
+        "title": "Would You Drive This?",
+        "date": "1-3-2014",
+        "author": " Micheal Jackson",
+        "image": "blog/interior.jpg",
+        "tags": [
+            " photography",
+            "ummm",
+            "cameras"
+        ],
+        "category": "development",
+        "post": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat laborum."
+    }
+]
+

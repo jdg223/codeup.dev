@@ -4,102 +4,102 @@
 
 
 
-    var blog = [
-    {
-        "title": "If you like Coffee",
-        "date": "10-30-2015",
-        "author": " Jon Wayne",
-        "image": "coffee_small.jpg",
-        "tags": [
-            " web",
-            "design",
-            "html"
-        ],
-        "category": "development",
-        "post": "lorem ipsum dolor and stuff here"
-    },
-    {
-        "title": "She Takes Pictures",
-        "date": "1-3-2014",
-        "author": " Micheal Jackson",
-        "image": "photographer.jpg",
-        "tags": [
-            " photography",
-            "ummm",
-            "cameras"
-        ],
-        "category": "Pictures",
-        "post": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat laborum."
-    },
-        {
-        "title": "Would You Drive This?",
-        "date": "1-3-2014",
-        "author": " Micheal Jackson",
-        "image": "interior.jpg",
-        "tags": [
-            " photography",
-            "ummm",
-            "cameras"
-        ],
-        "category": "development",
-        "post": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat laborum."
-    },
-        {
-        "title": "Would You Drive This?",
-        "date": "1-3-2014",
-        "author": " Micheal Jackson",
-        "image": "interior.jpg",
-        "tags": [
-            " photography",
-            "ummm",
-            "cameras"
-        ],
-        "category": "development",
-        "post": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat laborum."
-    }
-]
-    var postTitle = document.getElementsByClassName('main-title')
-    var postDate = document.getElementsByTagName('h4')
-    var postAuthor = document.getElementsByTagName('h3')
-    var postCategory = document.getElementsByClassName('blog-cat')
-    var postTags = document.getElementsByClassName('blog-tags')
-    //var postImage = document.getElementsByTagName('img')
-    var post = document.getElementsByClassName('article')
+//     var blog = [
+//     {
+//         "title": "If you like Coffee",
+//         "date": "10-30-2015",
+//         "author": " Jon Wayne",
+//         "image": "coffee_small.jpg",
+//         "tags": [
+//             " web",
+//             "design",
+//             "html"
+//         ],
+//         "category": "development",
+//         "post": "lorem ipsum dolor and stuff here"
+//     },
+//     {
+//         "title": "She Takes Pictures",
+//         "date": "1-3-2014",
+//         "author": " Micheal Jackson",
+//         "image": "photographer.jpg",
+//         "tags": [
+//             " photography",
+//             "ummm",
+//             "cameras"
+//         ],
+//         "category": "Pictures",
+//         "post": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat laborum."
+//     },
+//         {
+//         "title": "Would You Drive This?",
+//         "date": "1-3-2014",
+//         "author": " Micheal Jackson",
+//         "image": "interior.jpg",
+//         "tags": [
+//             " photography",
+//             "ummm",
+//             "cameras"
+//         ],
+//         "category": "development",
+//         "post": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat laborum."
+//     },
+//         {
+//         "title": "Would You Drive This?",
+//         "date": "1-3-2014",
+//         "author": " Micheal Jackson",
+//         "image": "interior.jpg",
+//         "tags": [
+//             " photography",
+//             "ummm",
+//             "cameras"
+//         ],
+//         "category": "development",
+//         "post": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat laborum."
+//     }
+// ]
+    // var postTitle = document.getElementsByClassName('main-title')
+    // var postDate = document.getElementsByTagName('h4')
+    // var postAuthor = document.getElementsByTagName('h3')
+    // var postCategory = document.getElementsByClassName('blog-cat')
+    // var postTags = document.getElementsByClassName('blog-tags')
+    // //var postImage = document.getElementsByTagName('img')
+    // var post = document.getElementsByClassName('article')
 
-    var posts = document.getElementById('posts')
-    var images = document.getElementsByClassName('img-container')
-    var itemString = ""; 
+    // var posts = document.getElementById('posts')
+    // var images = document.getElementsByClassName('img-container')
+    // var itemString = ""; 
 
-    for (var i = 0; i < blog.length; i++) {
-        itemString += '<h2 class = "main-title ">'+ blog[i]['title'] + '</h2>'
-        itemString += '<img class = "img-responsive img-rounded" src="' + blog[i]['image'] + '"/>'
-        itemString += '<h4 class="date">'+ blog[i].date + '</h4>'
-        itemString += '<h3 id="title-by">By:</h3>'
-        itemString += '<h3>'+ blog[i].author + '</h3>'
-        itemString += '<p class="article">'+ blog[i].post + '</p>'
-        itemString += '<h5 class ="by">Category: </h5>'
-        itemString += '<h5>'+ blog[i].category+ '</h5>'
-        itemString += '<h6 class="tag">Tags: </h6>'
-        itemString += '<h6 class= "blog-tags">'+ blog[i]['tags'] + '</h6>'
-        itemString += '<br>'
-        itemString += '<a class="str-left">Comment</a>'
-        itemString += '<a class="str-right">Share</a>'
-        itemString += '<hr>'
-    };
+    // for (var i = 0; i < blog.length; i++) {
+    //     itemString += '<h2 class = "main-title ">'+ blog[i]['title'] + '</h2>'
+    //     itemString += '<img class = "img-responsive img-rounded" src="' + blog[i]['image'] + '"/>'
+    //     itemString += '<h4 class="date">'+ blog[i].date + '</h4>'
+    //     itemString += '<h3 id="title-by">By:</h3>'
+    //     itemString += '<h3>'+ blog[i].author + '</h3>'
+    //     itemString += '<p class="article">'+ blog[i].post + '</p>'
+    //     itemString += '<h5 class ="by">Category: </h5>'
+    //     itemString += '<h5>'+ blog[i].category+ '</h5>'
+    //     itemString += '<h6 class="tag">Tags: </h6>'
+    //     itemString += '<h6 class= "blog-tags">'+ blog[i]['tags'] + '</h6>'
+    //     itemString += '<br>'
+    //     itemString += '<a class="str-left">Comment</a>'
+    //     itemString += '<a class="str-right">Share</a>'
+    //     itemString += '<hr>'
+    // };
 
-    //posts.innerHTML = postTitle
-    posts.innerHTML = itemString
+    // //posts.innerHTML = postTitle
+    // posts.innerHTML = itemString
 
-    for (var i = 5; i < blog.length; i++) {
-        var postTheNewPost = function(event) {
-        posts.blog[i]['title'] = document.getElementById('title').innerText
-        blog[i].author = document.getElementById('author')
-        itemString = document.getElementById('date')
-    }
-    document.getElementById('submitTheForm').addEventListener('click',postTheNewPost,false)
-    };
+    // for (var i = 5; i < blog.length; i++) {
+    //     var postTheNewPost = function(event) {
+    //     posts.blog[i]['title'] = document.getElementById('title').innerText
+    //     blog[i].author = document.getElementById('author')
+    //     itemString = document.getElementById('date')
+    // }
+    // document.getElementById('submitTheForm').addEventListener('click',postTheNewPost,false)
+    // };
 
-    console.log(postTitle)
+    // console.log(postTitle)
 
 // -------------------------For Title-------------------------------------------------    
         // blog.forEach(function(element,index){

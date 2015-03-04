@@ -1,0 +1,54 @@
+
+.cont-fluid{
+	width:auto;
+	height: auto;
+	background-image: url('sanAntonio.jpg');
+}
+p{
+	color: #fff;
+	text-align: center;
+	font-size: 20px;
+}
+#weather{
+	height:100%;
+	width: 100%;
+}
+.currentWeather{
+	text-align: center;
+	font-size: 50px;
+}
+.inline{
+	display: inline;
+}
+.center-block{
+	height: 100px;
+}
+#map-canvas {
+        height: 400px;
+        width: 100%;
+}
+#panel {
+       height: auto;
+       width: 215px;
+        background-color: transparent;
+        padding: 5px;
+        display: inline;
+        position: absolute;
+        top: 380px;
+        left: 50%;
+        margin-left: -125px;
+        z-index: 5;
+}
+#address{
+	background-color: #fff;
+	border-color: #fff;
+	font-size: 15px;
+	color: #000;
+}
+#geo{
+
+	margin-top: 5px;
+}
+input{
+	color: #000;
+}
